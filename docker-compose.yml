@@ -16,6 +16,6 @@ services:
          # Enable the environment variables below if you have COMMUNITY=true
       #- SERVER_PASSWORD="papaya"
       #- SERVER_NAME="OnlyPals"
-      # - ADMIN_PASSWORD="papaya_admin"
+         - ADMIN_PASSWORD="papaya_admin"
       volumes:
          - ./saves:/palworld/
