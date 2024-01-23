@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>572C4135B5AC4ED2833B113BD6816259</ExecutionGuid>
+		<CrashGUID>UECC-Linux-8146827BD1F245648646B920E25F849A_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<ErrorMessage>LowLevelFatalError [File:D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/Component/PalLoadoutSelectorComponent.cpp] [Line: 552] ロードした武器用ActorClassがnull StaticItemID = BowGun 0x0000000006704b83 PalServer-Linux-Test!UE::Core::Private::Function::TFunctionRefCaller&lt;UPalLoadoutSelectorComponent::RespawnItemActor(TSoftClassPtr&lt;AActor&gt;, FPalItemId, int, EPalPlayerInventoryType)::$_6, void (TSubclassOf&lt;AActor&gt;)&gt;::Call(void*, TSubclassOf&lt;AActor&gt;&amp;) [C:/works/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Templates/Function.h:474] 0x0000000006700eaf PalServer-Linux-Test!UE::Core::Private::Function::TFunctionRefCaller&lt;TSharedPtr&lt;FStreamableHandle, (ESPMode)1&gt; UPalAssetStreamableManager::RequestAsyncLoad&lt;AActor&gt;(TSoftClassPtr&lt;AActor&gt;, TFunction&lt;void (TSubclassOf&lt;AActor&gt;)&gt;, int, bool, bool)::&apos;lambda&apos;(UObject*), void (UObject*)&gt;::Call(void*, UObject*&amp;) [C:/works/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Templates/Function.h:474] 0x00000000067ae309 PalServer-Linux-Test!FPalAssetLoadedSingle::OnInvokeLoadedDelegate() [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAssetStreamableManager.h:45] 0x000000000678708f PalServer-Linux-Test!UPalAssetStreamableManager::Tick(float) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAssetStreamableManager.cpp:122] 0x000000000a27ea9a PalServer-Linux-Test!FTickableGameObject::TickObjects(UWorld*, int, bool, float) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Tickable.cpp:150] 0x0000000009d571c4 PalServer-Linux-Test!UWorld::Tick(ELevelTick, float) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/LevelTick.cpp:1606] 0x0000000009b8fa44 PalServer-Linux-Test!UGameEngine::Tick(float, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/GameEngine.cpp:1775] 0x0000000003f2e7be PalServer-Linux-Test!FEngineLoop::Tick() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5363] 0x0000000003f2f8ca PalServer-Linux-Test!GuardedMain(char16_t const*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/Launch.cpp:204] 0x000000000a983b58 PalServer-Linux-Test!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269] 0x00007f7cd2d0bd0a libc.so.6!__libc_start_main(+0xe9) 0x0000000003f2d029 PalServer-Linux-Test!_start()</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>52</ProcessId>
+		<SecondsSinceStart>15</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>PalServer-Linux-Test</ExecutableName>
+		<BuildConfiguration>Test</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>LinuxServer</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Server</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>Pal -port=8211 -players=16 -adminpassword=papaya_admin</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en_US_POSIX</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-Linux-Test</Symbols>
+		<IsUERelease>false</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>/palworld/Pal/Binaries/Linux/</BaseDir>
+		<RootDir>/palworld/</RootDir>
+		<MachineId>-000003E8</MachineId>
+		<LoginId>-000003e8</LoginId>
+		<HostName>9737455c0d10</HostName>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>DO-Premium-AMD</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>UnknownVendor PCI-id: 1af4-1050 (1af4-1100)</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Debian GNU/Linux 11 (bullseye)</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>6.5.0-14-generic</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>8317628416</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>0</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>5838983168</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>2064523264</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>2070228992</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>4884369408</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>4892352512</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>2</NumMinidumpFramesToIgnore>
+		<CallStack>PalServer-Linux-Test!UE::Core::Private::Function::TFunctionRefCaller&lt;UPalLoadoutSelectorComponent::RespawnItemActor(TSoftClassPtr&lt;AActor&gt;, FPalItemId, int, EPalPlayerInventoryType)::$_6, void (TSubclassOf&lt;AActor&gt;)&gt;::Call(void*, TSubclassOf&lt;AActor&gt;&amp;) [C:/works/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Templates/Function.h:474]
+PalServer-Linux-Test!UE::Core::Private::Function::TFunctionRefCaller&lt;TSharedPtr&lt;FStreamableHandle, (ESPMode)1&gt; UPalAssetStreamableManager::RequestAsyncLoad&lt;AActor&gt;(TSoftClassPtr&lt;AActor&gt;, TFunction&lt;void (TSubclassOf&lt;AActor&gt;)&gt;, int, bool, bool)::&apos;lambda&apos;(UObject*), void (UObject*)&gt;::Call(void*, UObject*&amp;) [C:/works/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Templates/Function.h:474]
+PalServer-Linux-Test!FPalAssetLoadedSingle::OnInvokeLoadedDelegate() [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAssetStreamableManager.h:45]
+PalServer-Linux-Test!UPalAssetStreamableManager::Tick(float) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAssetStreamableManager.cpp:122]
+PalServer-Linux-Test!FTickableGameObject::TickObjects(UWorld*, int, bool, float) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Tickable.cpp:150]
+PalServer-Linux-Test!UWorld::Tick(ELevelTick, float) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/LevelTick.cpp:1606]
+PalServer-Linux-Test!UGameEngine::Tick(float, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/GameEngine.cpp:1775]
+PalServer-Linux-Test!FEngineLoop::Tick() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5363]
+PalServer-Linux-Test!GuardedMain(char16_t const*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/Launch.cpp:204]
+PalServer-Linux-Test!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!__libc_start_main(+0xe9)
+PalServer-Linux-Test!_start()
+</CallStack>
+		<PCallStack>PalServer-Linux-Test 0x0000000000200000 + 6504b83 PalServer-Linux-Test 0x0000000000200000 + 6500eaf PalServer-Linux-Test 0x0000000000200000 + 65ae309 PalServer-Linux-Test 0x0000000000200000 + 658708f PalServer-Linux-Test 0x0000000000200000 + a07ea9a PalServer-Linux-Test 0x0000000000200000 + 9b571c4 PalServer-Linux-Test 0x0000000000200000 + 998fa44 PalServer-Linux-Test 0x0000000000200000 + 3d2e7be PalServer-Linux-Test 0x0000000000200000 + 3d2f8ca PalServer-Linux-Test 0x0000000000200000 + a783b58 libc.so 0x00007f7cd2ce8000 + 23d0a PalServer-Linux-Test 0x0000000000200000 + 3d2d029</PCallStack>
+		<PCallStackHash>9290265A66AD089D1C4C59842E1F72AC973E3826</PCallStackHash>
+		<TimeOfCrash>638415742932150000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Linux [Debian GNU/Linux 11 (bullseye) 6.5.0-14-generic 64b]</PlatformFullName>
+		<CPUBrand>DO-Premium-AMD</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules />
+	</RuntimeProperties>
+	<PlatformProperties>
+		<CrashSignal>11</CrashSignal>
+		<CrashSignalName>Segmentation fault</CrashSignalName>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>LinuxServerNo errors</MatchingDPStatus>
+		<RHI.RHIName>NullRHI</RHI.RHIName>
+		<DeviceProfile.Name>LinuxServer</DeviceProfile.Name>
+		<NumClients>2</NumClients>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;version&quot;: &quot;0.1.2.0&quot;, &quot;callstackhash&quot;: &quot;7C84DA81282E759BDC36B526A797AA2F1014E008&quot;,&quot;revision&quot;: &quot;46875&quot;, &quot;platform&quot;: &quot;Linux&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>

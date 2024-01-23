@@ -1,0 +1,18 @@
+﻿Log file open, 01/22/24 04:37:26
+LogPakFile: Display: Found Pak file ../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak.
+LogPakFile: Display: Mounted Pak file '../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak', mount point: '../../../Engine/'
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogInit: Build: ++UE5+Release-5.1-CL-0
+LogInit: Engine Version: 5.1.1-0+++UE5+Release-5.1
+LogInit: Compatible Engine Version: 5.1.0-0+++UE5+Release-5.1
+LogInit: Net CL: 0
+LogInit: OS: Debian GNU/Linux 11 (bullseye) (6.5.0-9-generic), CPU: DO-Premium-AMD, GPU: UnknownVendor PCI-id: 1af4-1050 (1af4-1100)
+LogInit: Compiled (64-bit): Dec 31 2023 20:12:22
+LogInit: Compiled with Clang: 13.0.1 (https://github.com/llvm/llvm-project 75e33f71c2dae584b13a7d1186ae0a038ba98838)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE5+Release-5.1
+LogInit: Command Line:  -Abslog="/palworld/Pal/Saved/Logs/Pal-CRC.log" -Unattended -ImplicitSend "/palworld/Pal/Saved/Crashes/crashinfo-Pal-pid-52-D1D6A8ED30DE44E88885441925069669/" -unattended
+LogInit: Base Directory: /palworld/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
